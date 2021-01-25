@@ -1,0 +1,83 @@
+07-21 22:21:40 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+07-21 22:21:40 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+07-21 22:21:40 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6)-1
+07-21 22:21:40 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+07-21 22:21:40 replicate_layout.action_replicate_layout 340:Preparing replicator with U9 as a reference
+07-21 22:21:40 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+07-21 22:21:40 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+{'5ED88384': ['NH2034HD34_Adapter', u'D:\\Dropbox\\PCBs\\KiCAD\\Projects\\Guatek\\WW-Battery-Pack\\NH2034HD34_Adapter.sch'], '60903459': ['sheet60903459', u'D:\\Dropbox\\PCBs\\KiCAD\\Projects\\Guatek\\WW-Battery-Pack\\LTC4412HV.sch'], '60903454': ['sheet60903454', u'D:\\Dropbox\\PCBs\\KiCAD\\Projects\\Guatek\\WW-Battery-Pack\\LTC4412HV.sch'], '5EDDF16A': ['LTC1760_A', u'D:\\Dropbox\\PCBs\\KiCAD\\Projects\\Guatek\\WW-Battery-Pack\\LTC1760.sch'], '5EFF9227': ['LTC1760_B', u'D:\\Dropbox\\PCBs\\KiCAD\\Projects\\Guatek\\WW-Battery-Pack\\LTC1760.sch'], '6090344F': ['sheet6090344F', u'D:\\Dropbox\\PCBs\\KiCAD\\Projects\\Guatek\\WW-Battery-Pack\\LTC4412HV.sch'], '5EFFBC1C': ['LTC1670_C', u'D:\\Dropbox\\PCBs\\KiCAD\\Projects\\Guatek\\WW-Battery-Pack\\LTC1760.sch']}
+07-21 22:21:40 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+07-21 22:21:40 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U9'
+Located on:['sheet6090344F']
+With filenames:[u'LTC4412HV.sch']
+With sheet_id:['sheet6090344F']
+07-21 22:21:40 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'U9', ['sheet6090344F']), (u'U10', ['sheet60903454']), (u'U11', ['sheet60903459'])]
+07-21 22:21:40 replicate_layout.action_replicate_layout 384:Showing dialog
+07-21 22:21:40 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-8, -8)
+07-21 22:21:40 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1080)
+07-21 22:21:40 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(1722, 115)
+07-21 22:21:40 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(1409, 115)
+07-21 22:21:43 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'sheet6090344F', file:u'LTC4412HV.sch'
+07-21 22:21:43 replicate_layout.replicatelayout 252:Source sheet path up to the level:['sheet6090344F']
+07-21 22:21:43 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U9', u'U10', u'U11']
+07-21 22:21:43 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/6090344F/5EC89EF9', u'/60903454/5EC89EF9', u'/60903459/5EC89EF9']
+07-21 22:21:43 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['sheet6090344F'], ['sheet60903454'], ['sheet60903459']]
+07-21 22:21:43 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['sheet6090344F'], ['sheet60903454'], ['sheet60903459']]
+07-21 22:21:43 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['sheet60903454'], ['sheet60903459']]
+07-21 22:21:49 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'sheet6090344F', file:u'LTC4412HV.sch'
+07-21 22:21:49 replicate_layout.replicatelayout 252:Source sheet path up to the level:['sheet6090344F']
+07-21 22:21:49 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U9', u'U10', u'U11']
+07-21 22:21:49 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/6090344F/5EC89EF9', u'/60903454/5EC89EF9', u'/60903459/5EC89EF9']
+07-21 22:21:49 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['sheet6090344F'], ['sheet60903454'], ['sheet60903459']]
+07-21 22:21:49 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['sheet6090344F'], ['sheet60903454'], ['sheet60903459']]
+07-21 22:21:49 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['sheet60903454'], ['sheet60903459']]
+07-21 22:21:49 replicate_layout.action_replicate_layout 179:Replicating layout
+07-21 22:21:49 replicate_layout.replicatelayout 986:Starting replication of sheets: [['sheet60903454'], ['sheet60903459']]
+on level: ['sheet6090344F']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+07-21 22:21:49 root 261:updating GUI message: 'Preparing for replication'
+07-21 22:21:49 root 266:updating GUI with: 0
+07-21 22:21:49 replicate_layout.replicatelayout 552:Getting the list of source footprints
+07-21 22:21:49 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
+07-21 22:21:49 replicate_layout.replicatelayout 560:Getting nets local to source footprints
+07-21 22:21:49 replicate_layout.replicatelayout 564:Getting source bounding box
+07-21 22:21:49 root 266:updating GUI with: 37
+07-21 22:21:49 replicate_layout.replicatelayout 568:Getting source tracks
+07-21 22:21:49 replicate_layout.replicatelayout 572:Getting source zones
+07-21 22:21:49 root 266:updating GUI with: 62
+07-21 22:21:49 replicate_layout.replicatelayout 576:Getting source text items
+07-21 22:21:49 replicate_layout.replicatelayout 580:Getting source text items
+07-21 22:21:49 root 261:updating GUI message: 'Replicating footprints'
+07-21 22:21:49 replicate_layout.replicatelayout 586:Replicating footprints
+07-21 22:21:49 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['sheet60903454']
+07-21 22:21:49 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['sheet60903459']
+07-21 22:21:49 root 266:updating GUI with: 80
+07-21 22:21:49 root 261:updating GUI message: 'Replicating tracks'
+07-21 22:21:49 replicate_layout.replicatelayout 712:Replicating tracks
+07-21 22:21:49 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['sheet60903454']
+07-21 22:21:49 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['sheet60903459']
+07-21 22:21:49 root 261:updating GUI message: 'Replicating zones'
+07-21 22:21:49 replicate_layout.replicatelayout 763:Replicating zones
+07-21 22:21:49 replicate_layout.replicatelayout 770:Replicating zones on sheet ['sheet60903454']
+07-21 22:21:49 root 266:updating GUI with: 50
+07-21 22:21:49 replicate_layout.replicatelayout 770:Replicating zones on sheet ['sheet60903459']
+07-21 22:21:49 root 261:updating GUI message: 'Replicating text'
+07-21 22:21:49 replicate_layout.replicatelayout 829:Replicating text
+07-21 22:21:49 replicate_layout.replicatelayout 836:Replicating text on sheet ['sheet60903454']
+07-21 22:21:49 replicate_layout.replicatelayout 836:Replicating text on sheet ['sheet60903459']
+07-21 22:21:49 root 261:updating GUI message: 'Replicating drawings'
+07-21 22:21:49 replicate_layout.replicatelayout 860:Replicating drawings
+07-21 22:21:49 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['sheet60903454']
+07-21 22:21:49 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['sheet60903459']
+07-21 22:21:49 replicate_layout.action_replicate_layout 201:Replication complete

@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name BUMP-Control-rescue)(type Legacy)(uri D:/Dropbox/PCBs/KiCAD/Projects/BUMP-Control/BUMP-Control-rescue.lib)(options "")(descr ""))
+  (lib (name WW-Battery-Pack-rescue)(type Legacy)(uri ${KIPRJMOD}/WW-Battery-Pack-rescue.lib)(options "")(descr ""))
+)

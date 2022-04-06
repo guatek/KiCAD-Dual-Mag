@@ -345,7 +345,7 @@ Wire Wire Line
 Wire Wire Line
 	7650 6900 7650 6800
 $Comp
-L SPC-Control-rescue:CVS-04TB J5
+L Dual-Mag-Camera-Control-rescue:CVS-04TB-SPC-Control-rescue J5
 U 1 1 5987E9DC
 P 4300 3450
 F 0 "J5" H 4300 3132 60  0000 C CNN
@@ -391,7 +391,7 @@ UART_RX2
 Text HLabel 10000 7150 2    60   Input ~ 0
 UART_RX3
 $Comp
-L SPC-Control-rescue:CVS-04TB J6
+L Dual-Mag-Camera-Control-rescue:CVS-04TB-SPC-Control-rescue J6
 U 1 1 5A96228D
 P 8200 3450
 F 0 "J6" H 8200 3132 60  0000 C CNN
@@ -405,7 +405,7 @@ F 6 "https://www.digikey.com/products/en?keywords=563-1041-1-ND" H 8200 3450 60 
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D21
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D21
 U 1 1 5A96AB7C
 P 5700 4900
 F 0 "D21" H 5700 5000 50  0000 C CNN
@@ -449,7 +449,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 7150 10000 7150
 $Comp
-L SPC-Control-rescue:D_TVS D17
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D17
 U 1 1 604860DC
 P 4100 4900
 F 0 "D17" H 4100 5000 50  0000 C CNN
@@ -463,7 +463,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CDSOD323-T15CCT-ND" H 4100 490
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D18
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D18
 U 1 1 60486583
 P 4100 5700
 F 0 "D18" H 4100 5800 50  0000 C CNN
@@ -477,7 +477,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CDSOD323-T15CCT-ND" H 4100 570
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D19
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D19
 U 1 1 60486826
 P 4100 6650
 F 0 "D19" H 4100 6750 50  0000 C CNN
@@ -491,7 +491,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CDSOD323-T15CCT-ND" H 4100 665
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D20
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D20
 U 1 1 60486CA1
 P 4100 7450
 F 0 "D20" H 4100 7550 50  0000 C CNN
@@ -505,7 +505,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CDSOD323-T15CCT-ND" H 4100 745
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D24
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D24
 U 1 1 60486F78
 P 5700 7450
 F 0 "D24" H 5700 7550 50  0000 C CNN
@@ -519,7 +519,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CDSOD323-T15CCT-ND" H 5700 745
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D23
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D23
 U 1 1 60487277
 P 5700 6650
 F 0 "D23" H 5700 6750 50  0000 C CNN
@@ -533,7 +533,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CDSOD323-T15CCT-ND" H 5700 665
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D22
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D22
 U 1 1 604875E8
 P 5700 5700
 F 0 "D22" H 5700 5800 50  0000 C CNN
@@ -547,7 +547,7 @@ F 6 "https://www.digikey.com/products/en?keywords=CDSOD323-T15CCT-ND" H 5700 570
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F28
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F28
 U 1 1 60489A8C
 P 9450 5400
 F 0 "F28" V 9375 5400 50  0000 C CNN
@@ -561,7 +561,7 @@ F 6 "Value" H 9450 5400 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F29
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F29
 U 1 1 60489E29
 P 9450 6350
 F 0 "F29" V 9375 6350 50  0000 C CNN
@@ -575,7 +575,7 @@ F 6 "Value" H 9450 6350 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F30
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F30
 U 1 1 6048A0D2
 P 9450 7150
 F 0 "F30" V 9375 7150 50  0000 C CNN
@@ -589,7 +589,7 @@ F 6 "Value" H 9450 7150 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F26
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F26
 U 1 1 6048A483
 P 7400 7150
 F 0 "F26" V 7325 7150 50  0000 C CNN
@@ -603,7 +603,7 @@ F 6 "Value" H 7400 7150 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F25
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F25
 U 1 1 6048A9E0
 P 7400 6350
 F 0 "F25" V 7325 6350 50  0000 C CNN
@@ -617,7 +617,7 @@ F 6 "Value" H 7400 6350 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F24
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F24
 U 1 1 6048AD7D
 P 7400 5400
 F 0 "F24" V 7325 5400 50  0000 C CNN
@@ -631,7 +631,7 @@ F 6 "Value" H 7400 5400 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F23
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F23
 U 1 1 6048B16A
 P 7400 4600
 F 0 "F23" V 7325 4600 50  0000 C CNN
@@ -645,7 +645,7 @@ F 6 "Value" H 7400 4600 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F19
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F19
 U 1 1 6048B52F
 P 5450 4600
 F 0 "F19" V 5375 4600 50  0000 C CNN
@@ -659,7 +659,7 @@ F 6 "Value" H 5450 4600 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F21
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F21
 U 1 1 6048B980
 P 5450 6350
 F 0 "F21" V 5375 6350 50  0000 C CNN
@@ -673,7 +673,7 @@ F 6 "Value" H 5450 6350 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F20
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F20
 U 1 1 6048BFB1
 P 5450 5400
 F 0 "F20" V 5375 5400 50  0000 C CNN
@@ -687,7 +687,7 @@ F 6 "Value" H 5450 5400 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F22
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F22
 U 1 1 6048C26A
 P 5450 7150
 F 0 "F22" V 5375 7150 50  0000 C CNN
@@ -701,7 +701,7 @@ F 6 "Value" H 5450 7150 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F18
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F18
 U 1 1 6048C573
 P 3850 7150
 F 0 "F18" V 3775 7150 50  0000 C CNN
@@ -715,7 +715,7 @@ F 6 "Value" H 3850 7150 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F17
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F17
 U 1 1 6048C95C
 P 3850 6350
 F 0 "F17" V 3775 6350 50  0000 C CNN
@@ -729,7 +729,7 @@ F 6 "Value" H 3850 6350 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F16
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F16
 U 1 1 6048CCCD
 P 3850 5400
 F 0 "F16" V 3775 5400 50  0000 C CNN
@@ -743,7 +743,7 @@ F 6 "Value" H 3850 5400 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F15
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F15
 U 1 1 6048D0DE
 P 3850 4600
 F 0 "F15" V 3775 4600 50  0000 C CNN
@@ -757,7 +757,7 @@ F 6 "Value" H 3850 4600 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L ProjectDevices:SparkFun_MAX3232 U9
+L Dual-Mag-Camera-Control-rescue:SparkFun_MAX3232-ProjectDevices U9
 U 1 1 604E6489
 P 5300 3150
 F 0 "U9" H 5350 2550 50  0000 R CNN
@@ -793,7 +793,7 @@ Text HLabel 4900 3100 0    50   Input ~ 0
 Wire Wire Line
 	5000 3100 4900 3100
 $Comp
-L ProjectDevices:SparkFun_MAX3232 U10
+L Dual-Mag-Camera-Control-rescue:SparkFun_MAX3232-ProjectDevices U10
 U 1 1 60560389
 P 9400 3150
 F 0 "U10" H 9450 2550 50  0000 R CNN
@@ -831,7 +831,7 @@ Wire Wire Line
 Wire Wire Line
 	9700 4600 10000 4600
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F27
+L Dual-Mag-Camera-Control-rescue:Polyfuse_Small-SPC-Control-rescue F27
 U 1 1 59887D80
 P 9450 4600
 F 0 "F27" V 9375 4600 50  0000 C CNN
@@ -902,7 +902,7 @@ Wire Wire Line
 Wire Wire Line
 	12600 7850 12750 7850
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602E29BE
 P 7650 4900
 AR Path="/5F89B3EF/602E29BE" Ref="D?"  Part="1" 
@@ -919,7 +919,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602E8DB6
 P 9700 4900
 AR Path="/5F89B3EF/602E8DB6" Ref="D?"  Part="1" 
@@ -936,7 +936,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602E920B
 P 9700 5700
 AR Path="/5F89B3EF/602E920B" Ref="D?"  Part="1" 
@@ -953,7 +953,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602E961C
 P 7650 5700
 AR Path="/5F89B3EF/602E961C" Ref="D?"  Part="1" 
@@ -970,7 +970,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602E9B7B
 P 7650 6650
 AR Path="/5F89B3EF/602E9B7B" Ref="D?"  Part="1" 
@@ -987,7 +987,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602E9F66
 P 9700 6650
 AR Path="/5F89B3EF/602E9F66" Ref="D?"  Part="1" 
@@ -1004,7 +1004,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602EA2A9
 P 9700 7450
 AR Path="/5F89B3EF/602EA2A9" Ref="D?"  Part="1" 
@@ -1021,7 +1021,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D?
+L Dual-Mag-Camera-Control-rescue:D_TVS-SPC-Control-rescue D?
 U 1 1 602EA6FC
 P 7650 7450
 AR Path="/5F89B3EF/602EA6FC" Ref="D?"  Part="1" 
@@ -1038,7 +1038,7 @@ F 6 "https://www.digikey.com/en/products/detail/bourns-inc/CDSOD323-T03C/3742077
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Conn_01x06 J?
+L Dual-Mag-Camera-Control-rescue:Conn_01x06-SPC-Control-rescue J?
 U 1 1 60356825
 P 12950 4800
 AR Path="/60356825" Ref="J?"  Part="1" 
@@ -1054,7 +1054,7 @@ F 6 "https://www.digikey.com/en/products/detail/molex/1053102306/6164165" H 1295
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPC-Control-rescue:Conn_01x06 J?
+L Dual-Mag-Camera-Control-rescue:Conn_01x06-SPC-Control-rescue J?
 U 1 1 6035D2B9
 P 12950 5700
 AR Path="/6035D2B9" Ref="J?"  Part="1" 
@@ -1070,7 +1070,7 @@ F 6 "https://www.digikey.com/en/products/detail/molex/1053102306/6164165" H 1295
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPC-Control-rescue:Conn_01x06 J?
+L Dual-Mag-Camera-Control-rescue:Conn_01x06-SPC-Control-rescue J?
 U 1 1 6035D8FE
 P 12950 6600
 AR Path="/6035D8FE" Ref="J?"  Part="1" 
@@ -1086,7 +1086,7 @@ F 6 "https://www.digikey.com/en/products/detail/molex/1053102306/6164165" H 1295
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPC-Control-rescue:Conn_01x06 J?
+L Dual-Mag-Camera-Control-rescue:Conn_01x06-SPC-Control-rescue J?
 U 1 1 6035DDE7
 P 12950 7550
 AR Path="/6035DDE7" Ref="J?"  Part="1" 

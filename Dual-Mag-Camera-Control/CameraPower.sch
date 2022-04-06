@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ProjectDevices:S18V20F12 U?
+L Dual-Mag-Camera-Control-rescue:S18V20F12-ProjectDevices U?
 U 1 1 5F4AAE3D
 P 7450 4700
 AR Path="/5F4AAE3D" Ref="U?"  Part="1" 
@@ -102,7 +102,7 @@ Connection ~ 10300 5450
 Wire Wire Line
 	10300 5450 10300 5950
 $Comp
-L ProjectDevices:S18V20F12 U?
+L Dual-Mag-Camera-Control-rescue:S18V20F12-ProjectDevices U?
 U 1 1 5F709A19
 P 7450 5650
 AR Path="/5F709A19" Ref="U?"  Part="1" 

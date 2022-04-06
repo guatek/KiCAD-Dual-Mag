@@ -1493,7 +1493,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 9150 5350 9150
 $Comp
-L CBT-140-Control-rescue:Resistor_small R9
+L Dual-Mag-Strobe-rescue:Resistor_small-CBT-140-Control-rescue R9
 U 1 1 60007DD3
 P 6650 6450
 F 0 "R9" H 6592 6404 50  0000 R CNN
@@ -1580,7 +1580,7 @@ Wire Notes Line
 Wire Notes Line
 	600  4800 600  700 
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F3
+L Dual-Mag-Strobe-rescue:Polyfuse_Small-SPC-Control-rescue F3
 U 1 1 60751109
 P 14550 6050
 F 0 "F3" V 14475 6050 50  0000 C CNN
@@ -1594,7 +1594,7 @@ F 6 "Value" H 14550 6050 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D16
+L Dual-Mag-Strobe-rescue:D_TVS-SPC-Control-rescue D16
 U 1 1 60751116
 P 14800 6250
 F 0 "D16" H 14800 6350 50  0000 C CNN
@@ -1666,7 +1666,7 @@ F 6 "https://www.digikey.com/product-detail/en/vishay-siliconix/SISS10ADN-T1-GE3
 	0    -1   1    0   
 $EndComp
 $Comp
-L BUMP-Control-rescue:ZENERsmall-RESCUE-PowerControlBoard-SPC-Control-rescue-DeathStar-rescue D?
+L Dual-Mag-Strobe-rescue:ZENERsmall-RESCUE-PowerControlBoard-SPC-Control-rescue-DeathStar-rescue-BUMP-Control-rescue D?
 U 1 1 5F7C48C1
 P 13800 1950
 AR Path="/5BD21885/5F7C48C1" Ref="D?"  Part="1" 
@@ -1686,7 +1686,7 @@ F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/BZT52C20T-7/B
 	0    1    1    0   
 $EndComp
 $Comp
-L BUMP-Control-rescue:Resistor_small-SPC-Control-rescue-DeathStar-rescue R?
+L Dual-Mag-Strobe-rescue:Resistor_small-SPC-Control-rescue-DeathStar-rescue-BUMP-Control-rescue R?
 U 1 1 5F7C48CE
 P 13800 1550
 AR Path="/5BD21885/5F7C48CE" Ref="R?"  Part="1" 
@@ -1735,7 +1735,7 @@ Connection ~ 13800 1750
 Wire Wire Line
 	13800 1750 13800 1650
 $Comp
-L SPC-Control-rescue:SiS443DN Q?
+L Dual-Mag-Strobe-rescue:SiS443DN-SPC-Control-rescue Q?
 U 1 1 5F4889C4
 P 15400 1500
 AR Path="/5A8F9077/5F4889C4" Ref="Q?"  Part="1" 
@@ -1755,7 +1755,7 @@ F 6 "https://www.digikey.com/product-detail/en/vishay-siliconix/SI7611DN-T1-GE3/
 	0    1    -1   0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Resistor_small R?
+L Dual-Mag-Strobe-rescue:Resistor_small-SPC-Control-rescue R?
 U 1 1 5F7D2C57
 P 15050 1700
 AR Path="/5A8F9077/5F7D2C57" Ref="R?"  Part="1" 
@@ -1775,7 +1775,7 @@ F 6 "https://www.digikey.com/product-detail/en/panasonic-electronic-components/E
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:Resistor_small R?
+L Dual-Mag-Strobe-rescue:Resistor_small-SPC-Control-rescue R?
 U 1 1 5F7D2C58
 P 15350 2000
 AR Path="/5A8F9077/5F7D2C58" Ref="R?"  Part="1" 
@@ -1812,7 +1812,7 @@ Wire Wire Line
 Connection ~ 15600 1300
 Connection ~ 15600 1350
 $Comp
-L SPC-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-SPC-Control-rescue C?
 U 1 1 5F7D2C5A
 P 14650 1600
 AR Path="/5A8F9077/5F7D2C5A" Ref="C?"  Part="1" 
@@ -1895,7 +1895,7 @@ F 6 "https://www.digikey.com/product-detail/en/texas-instruments/SN74AHCT1G08DBV
 	1    0    0    -1  
 $EndComp
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F2
+L Dual-Mag-Strobe-rescue:Polyfuse_Small-SPC-Control-rescue F2
 U 1 1 60F6C26C
 P 14550 5350
 F 0 "F2" V 14475 5350 50  0000 C CNN
@@ -1909,7 +1909,7 @@ F 6 "Value" H 14550 5350 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D15
+L Dual-Mag-Strobe-rescue:D_TVS-SPC-Control-rescue D15
 U 1 1 60F6C279
 P 14800 5550
 F 0 "D15" H 14800 5650 50  0000 C CNN
@@ -1966,7 +1966,7 @@ Connection ~ 14800 6050
 Text Label 14550 5800 2    50   ~ 0
 GND_PSU
 $Comp
-L SPC-Control-rescue:Polyfuse_Small F4
+L Dual-Mag-Strobe-rescue:Polyfuse_Small-SPC-Control-rescue F4
 U 1 1 6126A313
 P 14550 6750
 F 0 "F4" V 14475 6750 50  0000 C CNN
@@ -1980,7 +1980,7 @@ F 6 "Value" H 14550 6750 60  0001 C CNN "Link"
 	0    1    1    0   
 $EndComp
 $Comp
-L SPC-Control-rescue:D_TVS D17
+L Dual-Mag-Strobe-rescue:D_TVS-SPC-Control-rescue D17
 U 1 1 6126A320
 P 14800 6950
 F 0 "D17" H 14800 7050 50  0000 C CNN
@@ -2163,7 +2163,7 @@ $EndComp
 Wire Wire Line
 	8500 8350 8500 8500
 $Comp
-L CBT-140-Control-rescue:D D?
+L Dual-Mag-Strobe-rescue:D-CBT-140-Control-rescue D?
 U 1 1 61B1B119
 P 8350 7600
 AR Path="/5A8E3CAC/61B1B119" Ref="D?"  Part="1" 
@@ -2188,7 +2188,7 @@ Wire Wire Line
 Wire Wire Line
 	8600 7600 8500 7600
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 61B1B12B
 P 7950 7600
 AR Path="/5A8E3CAC/61B1B12B" Ref="C?"  Part="1" 
@@ -2299,7 +2299,7 @@ Text Label 9000 6750 0    50   ~ 0
 GND
 Connection ~ 6650 6550
 $Comp
-L CBT-140-Control-rescue:Resistor_small R5
+L Dual-Mag-Strobe-rescue:Resistor_small-CBT-140-Control-rescue R5
 U 1 1 61E49297
 P 5650 6450
 F 0 "R5" H 5800 6400 50  0000 R CNN
@@ -2408,7 +2408,7 @@ F 6 "https://www.digikey.com/product-detail/en/keystone-electronics/5191TR/36-51
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CBT-140-Control-rescue:R R?
+L Dual-Mag-Strobe-rescue:R-CBT-140-Control-rescue R?
 U 1 1 61EACDA5
 P 5650 4200
 AR Path="/5A8E3CAC/61EACDA5" Ref="R?"  Part="1" 
@@ -2429,7 +2429,7 @@ F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/PMR100HZPFU10L
 	1    0    0    -1  
 $EndComp
 $Comp
-L CBT-140-Control-rescue:D_Schottky D?
+L Dual-Mag-Strobe-rescue:D_Schottky-CBT-140-Control-rescue D?
 U 1 1 61EACDB2
 P 5650 2650
 AR Path="/5A8E3CAC/61EACDB2" Ref="D?"  Part="1" 
@@ -2461,7 +2461,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 4600 5350 4600
 $Comp
-L CBT-140-Control-rescue:Resistor_small R7
+L Dual-Mag-Strobe-rescue:Resistor_small-CBT-140-Control-rescue R7
 U 1 1 61EACDC7
 P 6650 1900
 F 0 "R7" H 6592 1854 50  0000 R CNN
@@ -2731,7 +2731,7 @@ Text Label 9000 2200 0    50   ~ 0
 GND
 Connection ~ 6650 2000
 $Comp
-L CBT-140-Control-rescue:Resistor_small R3
+L Dual-Mag-Strobe-rescue:Resistor_small-CBT-140-Control-rescue R3
 U 1 1 61EACF3B
 P 5650 1900
 F 0 "R3" H 5800 1850 50  0000 R CNN
@@ -3017,7 +3017,7 @@ Wire Wire Line
 Wire Wire Line
 	15600 1350 16100 1350
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 62AAB303
 P 4350 7600
 AR Path="/5A8E3CAC/62AAB303" Ref="C?"  Part="1" 
@@ -3039,7 +3039,7 @@ F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 $EndComp
 Connection ~ 4250 7600
 $Comp
-L CBT-140-Control-rescue:D D?
+L Dual-Mag-Strobe-rescue:D-CBT-140-Control-rescue D?
 U 1 1 62AAB81E
 P 3950 7600
 AR Path="/5A8E3CAC/62AAB81E" Ref="D?"  Part="1" 
@@ -3060,7 +3060,7 @@ F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/BAV3004W-7-F/
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CBT-140-Control-rescue:D D?
+L Dual-Mag-Strobe-rescue:D-CBT-140-Control-rescue D?
 U 1 1 62AB03F7
 P 8350 3050
 AR Path="/5A8E3CAC/62AB03F7" Ref="D?"  Part="1" 
@@ -3081,7 +3081,7 @@ F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/BAV3004W-7-F/
 	1    0    0    1   
 $EndComp
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 62AB09DC
 P 7950 3050
 AR Path="/5A8E3CAC/62AB09DC" Ref="C?"  Part="1" 
@@ -3103,7 +3103,7 @@ F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 $EndComp
 Connection ~ 8050 3050
 $Comp
-L CBT-140-Control-rescue:D D?
+L Dual-Mag-Strobe-rescue:D-CBT-140-Control-rescue D?
 U 1 1 62AB106B
 P 3950 3050
 AR Path="/5A8E3CAC/62AB106B" Ref="D?"  Part="1" 
@@ -3124,7 +3124,7 @@ F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/BAV3004W-7-F/
 	-1   0    0    -1  
 $EndComp
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 62AB16E8
 P 4350 3050
 AR Path="/5A8E3CAC/62AB16E8" Ref="C?"  Part="1" 
@@ -3146,7 +3146,7 @@ F 6 "https://www.digikey.com/product-detail/en/murata-electronics-north-america/
 $EndComp
 Connection ~ 4250 3050
 $Comp
-L CBT-140-Control-rescue:R R?
+L Dual-Mag-Strobe-rescue:R-CBT-140-Control-rescue R?
 U 1 1 62AB2218
 P 6650 4200
 AR Path="/5A8E3CAC/62AB2218" Ref="R?"  Part="1" 
@@ -3167,7 +3167,7 @@ F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/PMR100HZPFU10L
 	1    0    0    -1  
 $EndComp
 $Comp
-L CBT-140-Control-rescue:R R?
+L Dual-Mag-Strobe-rescue:R-CBT-140-Control-rescue R?
 U 1 1 62AB27F7
 P 6650 8750
 AR Path="/5A8E3CAC/62AB27F7" Ref="R?"  Part="1" 
@@ -3188,7 +3188,7 @@ F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/PMR100HZPFU10L
 	1    0    0    -1  
 $EndComp
 $Comp
-L CBT-140-Control-rescue:R R?
+L Dual-Mag-Strobe-rescue:R-CBT-140-Control-rescue R?
 U 1 1 62AB3B06
 P 5650 8750
 AR Path="/5A8E3CAC/62AB3B06" Ref="R?"  Part="1" 
@@ -3209,7 +3209,7 @@ F 6 "https://www.digikey.com/product-detail/en/rohm-semiconductor/PMR100HZPFU10L
 	1    0    0    -1  
 $EndComp
 $Comp
-L CBT-140-Control-rescue:D_Schottky D?
+L Dual-Mag-Strobe-rescue:D_Schottky-CBT-140-Control-rescue D?
 U 1 1 62AEF8CE
 P 6650 2650
 AR Path="/5A8E3CAC/62AEF8CE" Ref="D?"  Part="1" 
@@ -3230,7 +3230,7 @@ F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/PDS760Q-13/PD
 	0    1    1    0   
 $EndComp
 $Comp
-L CBT-140-Control-rescue:D_Schottky D?
+L Dual-Mag-Strobe-rescue:D_Schottky-CBT-140-Control-rescue D?
 U 1 1 62AEFDA3
 P 6650 7200
 AR Path="/5A8E3CAC/62AEFDA3" Ref="D?"  Part="1" 
@@ -3251,7 +3251,7 @@ F 6 "https://www.digikey.com/product-detail/en/diodes-incorporated/PDS760Q-13/PD
 	0    1    1    0   
 $EndComp
 $Comp
-L CBT-140-Control-rescue:D_Schottky D?
+L Dual-Mag-Strobe-rescue:D_Schottky-CBT-140-Control-rescue D?
 U 1 1 62AF05D0
 P 5650 7200
 AR Path="/5A8E3CAC/62AF05D0" Ref="D?"  Part="1" 
@@ -3274,7 +3274,7 @@ $EndComp
 Text Label 4900 1700 2    50   ~ 0
 5V_XD16_STROBE
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 62D5DA0F
 P 10100 7800
 AR Path="/5A8E3CAC/62D5DA0F" Ref="C?"  Part="1" 
@@ -3304,7 +3304,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 7800 10500 7800
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 62DD2616
 P 10100 3250
 AR Path="/5A8E3CAC/62DD2616" Ref="C?"  Part="1" 
@@ -3334,7 +3334,7 @@ Connection ~ 9350 3250
 Wire Wire Line
 	9350 3250 9350 3400
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 62E0E6F6
 P 2200 3250
 AR Path="/5A8E3CAC/62E0E6F6" Ref="C?"  Part="1" 
@@ -3364,7 +3364,7 @@ Connection ~ 2950 3250
 Wire Wire Line
 	2950 3250 2950 3400
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 62E4D0B4
 P 2200 7800
 AR Path="/5A8E3CAC/62E4D0B4" Ref="C?"  Part="1" 
@@ -3995,7 +3995,7 @@ Wire Wire Line
 Wire Wire Line
 	1200 8000 1150 8000
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 5F7DB7A0
 P 1400 7600
 AR Path="/5A8E3CAC/5F7DB7A0" Ref="C?"  Part="1" 
@@ -4022,7 +4022,7 @@ GND
 Wire Wire Line
 	1300 7600 1150 7600
 $Comp
-L CBT-140-Control-rescue:C_Small C?
+L Dual-Mag-Strobe-rescue:C_Small-CBT-140-Control-rescue C?
 U 1 1 5F96A7C4
 P 10900 7600
 AR Path="/5A8E3CAC/5F96A7C4" Ref="C?"  Part="1" 

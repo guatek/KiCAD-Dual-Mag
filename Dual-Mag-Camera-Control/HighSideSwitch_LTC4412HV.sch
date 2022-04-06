@@ -184,7 +184,7 @@ Text HLabel 4750 3850 0    50   Input ~ 0
 CTL
 NoConn ~ 5850 3850
 $Comp
-L ProjectDevices:Si7463DP Q?
+L Dual-Mag-Camera-Control-rescue:Si7463DP-ProjectDevices Q?
 U 1 1 606003DC
 P 5400 3000
 AR Path="/606003DC" Ref="Q?"  Part="1" 

@@ -39,7 +39,7 @@ F 6 "https://www.digikey.com/product-detail/en/linear-technology-analog-devices/
 	1    0    0    -1  
 $EndComp
 $Comp
-L ProjectDevices:Si7463DP Q?
+L Dual-Mag-Camera-Control-rescue:Si7463DP-ProjectDevices Q?
 U 1 1 5F4BCBD6
 P 7600 4500
 AR Path="/5F4BCBD6" Ref="Q?"  Part="1" 

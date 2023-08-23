@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name "Dual-Mag-Camera-Control-eagle-import")(type "Legacy")(uri "${KIPRJMOD}/Dual-Mag-Camera-Control-eagle-import.lib")(options "")(descr ""))
+  (lib (name "SPC-Control-rescue")(type "Legacy")(uri "${KIPRJMOD}/SPC-Control-rescue.lib")(options "")(descr ""))
+  (lib (name "BUMP-Control-rescue")(type "Legacy")(uri "${KIPRJMOD}/BUMP-Control-rescue.lib")(options "")(descr ""))
+  (lib (name "Dual-Mag-Camera-Control-rescue")(type "Legacy")(uri "${KIPRJMOD}/Dual-Mag-Camera-Control-rescue.lib")(options "")(descr ""))
+  (lib (name "CBT-140-Control-rescue")(type "Legacy")(uri "D:/Dropbox/PCBs/KiCAD/Projects/CBT-140-Control/CBT-140-Control-rescue.lib")(options "")(descr "")(disabled))
+  (lib (name "2022-05-02_03-27-09")(type "KiCad")(uri "/Users/drewbewley/Desktop/kicadFootprints/ul_CZRU52C3V3/KiCAD/2022-05-02_03-27-09/2022-05-02_03-27-09.kicad_sym")(options "")(descr ""))
+  (lib (name "2022-05-17_07-00-23")(type "Legacy")(uri "/Users/drewbewley/Desktop/kicadFootprints/ul_CZRU52C15/KiCAD/2022-05-17_07-00-23/2022-05-17_07-00-23.lib")(options "")(descr ""))
+)
